@@ -2,6 +2,10 @@
 This python script allows for mass adding of bug subscriptions to a team.
 For the input file, put one package name on each line and the script will do the rest.
 
+You need the following Python libraries.
+ 1. sys
+ 2. launchpadlib
+
 Mass package bug subscription adder for Ubuntu Packages using the Launchpad API
 Copyright (C) 2015 Simon Quigley
 
