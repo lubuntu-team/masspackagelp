@@ -6,6 +6,7 @@ You need the following Python libraries.
  1. sys
  2. launchpadlib
 
+```
 Mass package bug subscription adder for Ubuntu Packages using the Launchpad API
 Copyright (C) 2015, 2016 Simon Quigley
 
@@ -20,3 +21,4 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 
 A copy of the GNU General Public License version 2 is in license.txt.
+```
