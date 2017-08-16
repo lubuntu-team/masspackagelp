@@ -21,5 +21,8 @@ with open(filepath, "r") as ins:
 for i in range(len(filearray)):
     print("Assigning:")
     print(filearray[i])
-    lp.distributions['ubuntu'].getSourcePackage(name=filearray[i]).addBugSubscription(subscriber=lp.people[teamtowrite])
+    try:
+        lp.distributions['ubuntu'].getSourcePackage(name=filearray[i]).addBugSubscription(subscriber=lp.people[teamtowrite])
+    except AttributeError:
+        print("Source package not found.")
     print("Complete")
