@@ -10,8 +10,8 @@ def no_credential():
     sys.exit()
 
 lp = Launchpad.login_with('Mass package bug subscription adder', 'production', credential_save_failed=no_credential)
-teamtowrite = (raw_input('What person/team would you like to use for this? (Launchpad ID) '))
-filepath = (raw_input('Please specify the path of the input file: '))
+teamtowrite = (input('What person/team would you like to use for this? (Launchpad ID) '))
+filepath = (input('Please specify the path of the input file: '))
 
 with open(filepath, "r") as ins:
     filearray = []
