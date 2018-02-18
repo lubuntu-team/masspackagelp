@@ -2,7 +2,8 @@
 # -*- coding: utf-8 -*-
 
 """
-Copyright (C) 2015-2018 Simon Quigley
+Copyright (C) 2015-2018 Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
+Authored by Simon Quigley <tsimonq2@ubuntu.com>
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
