@@ -1,4 +1,5 @@
-# Mass package bug subscription adder for Ubuntu Packages using the Launchpad API or "masspackagelp" for short
+# masspackagelp
+
 This Python script allows for mass adding of bug subscriptions to a team.
 For the input file, put one package name on each line and the script will do the rest.
 
